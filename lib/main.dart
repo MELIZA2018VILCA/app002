@@ -19,7 +19,25 @@ class MyApp extends StatelessWidget {
             backgroundImage: NetworkImage(
               "https://images.pexels.com/photos/13037433/pexels-photo-13037433.jpeg"),
           ),
-        ],
+          Text(
+            "Fiorella de Fatima Guadalupe",
+            style: TextStyle(
+              color: Colors.white,
+              fontSize: 20.0,
+              fontWeight: FontWeight.w800,
+              
+              ),
+              ),
+              Text(
+                "FLUTTER DEVELOPER",
+                style: TextStyle(
+                  color: Colors.white38,
+                  fontSize: 18.0,
+                  fontWeight: FontWeight.w100,
+                  letterSpacing: 3.0, 
+                ),
+              ),
+                      ],
         ),
       ),
     );
